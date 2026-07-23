@@ -1,3 +1,15 @@
+
+![Uploading image.png…]()
+
+
+
+
+
+
+
+
+
+
 # SpeakGlobal Documentation
 
 Welcome to the official documentation for SpeakGlobal, the AI-powered communication coach.
