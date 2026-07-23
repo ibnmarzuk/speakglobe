@@ -1,20 +1,55 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# SpeakGlobal Documentation
 
-# Run and deploy your AI Studio app
+Welcome to the official documentation for SpeakGlobal, the AI-powered communication coach.
 
-This contains everything you need to run your app locally.
+## What is SpeakGlobal?
 
-View your app in AI Studio: https://ai.studio/apps/fe746c81-5382-41b9-938d-2b778c198b6b
+SpeakGlobal helps people become confident global communicators. We are an AI Communication Coach designed to assist individuals in interviews, meetings, presentations, networking, remote work, and international collaboration.
 
-## Run Locally
+## Mission
 
-**Prerequisites:**  Node.js
+To help everyone communicate clearly, confidently, and connect globally.
 
+## Vision
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+To become the world's leading platform for AI-powered communication coaching, empowering individuals to overcome communication barriers and achieve their professional and personal goals.
+
+## Technology Stack
+
+- **Frontend:** React, TypeScript, Tailwind CSS, Vite
+- **Backend:** Node.js, Express, TypeScript
+- **AI Engine:** Google Gemini API
+- **Database:** Firebase Firestore
+- **Authentication:** Firebase Authentication
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js (v18+)
+- npm
+
+### Installation
+
+1. Clone the repository.
+2. Install dependencies: `npm install`
+3. Set up environment variables in `.env`.
+4. Run locally: `npm run dev`
+
+## Folder Structure
+
+- `/src`: Frontend source code
+- `/server.ts`: Backend entry point
+- `/docs`: Project documentation
+
+## Deployment
+
+SpeakGlobal is deployed using Google Cloud Run.
+
+## Contributing
+
+Please see `CONTRIBUTING.md` for guidelines.
+
+## License
+
+SpeakGlobal © 2026. All rights reserved.
